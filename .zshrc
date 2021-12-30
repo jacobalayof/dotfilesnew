@@ -1,9 +1,7 @@
-PS1="%1~ %# "
-alias q='QHOME=~/q rlwrap -r ~/q/m64/q'
 path+=('/usr/local/bin')
 export PATH
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-setopt share_history
+#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#setopt share_history
 #PROMPT=$'%B%n@%m %~ \n%b%# '
 #PROMPT=$'\n(%n@%m)-[%B%~%b] \n%# '
 PROMPT=$'%F{%(#.blue.green)}┌──(%B%F{%(#.red.blue)}%n@%m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}%#)%b%F{reset} '
