@@ -14,5 +14,6 @@ set tabstop=4
 set autoindent
 set wrap linebreak nolist
 set spell spelllang=en_us
+:set number
 :set nospell
 :set backspace=indent,eol,start
